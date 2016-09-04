@@ -1,0 +1,186 @@
+h1{
+    font-family: "RobotoBold";
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 20px 0px 15px 0px;
+}
+
+.main-img{
+    width: 100%;
+    max-width: 320px;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    height: 286px;
+    background: url(../img/az-main-img-bg.jpg) no-repeat top center;
+    position: relative;
+    margin: 0 auto;
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.az-imgs{
+    width: 100%;
+    font-size: 0px;
+    //max-width: 320px;
+}
+
+.az-img{
+    position: relative;
+    width: 24%;
+    height: 64px;
+    margin-left: 0.66%;
+    margin-right: 0.66%;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: top;
+
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+.az-img:first-child{
+    margin-left: 0%;
+}
+.az-img:last-child{
+    margin-right: 0%;
+}
+.az-margin{
+    max-width: 320px;
+    margin: 10px auto;
+}
+
+.az-breadcrumb{
+    font-family: "RobotoRegular";
+    font-size: 14px;
+    color: #666666;
+    margin-top: 40px;
+    //margin-left: 20px;
+    a{
+        color: #666666;
+    }
+    span{
+        color: #dc5858;
+    }
+}
+
+.az-socials{
+    li{
+        display: inline-block;
+        margin: 0 5px;
+    }
+}
+
+.az-list{
+    li{
+        font-family: "RobotoRegular";
+        font-size: 16px;
+        padding-left: 38px;
+        position: relative;
+    }
+    li:before{
+        position: absolute;
+        content: '';
+        top: 0px;
+        left: 0px;
+    }
+    .az-icon1:before{
+        width: 30px;
+        height: 21px;
+        background: url(../img/az-icon1.png) no-repeat top left;
+    }
+    .az-icon2:before{
+        width: 22px;
+        height: 26px;
+        background: url(../img/az-icon2.png) no-repeat top left;
+    }
+    .az-icon3:before{
+        width: 29px;
+        height: 21px;
+        background: url(../img/az-icon3.png) no-repeat top left;
+    }
+}
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+   
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+   
+}
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+/***************/
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //padding: 0px;
+    //margin: 0px;
+    //outline: 15px solid blue;
+    //outline: none !important;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    //padding: 0px;
+    //margin: 0px;    
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    //padding: 0px;
+    //margin: 0px;
+}

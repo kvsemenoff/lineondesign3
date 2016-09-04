@@ -1,0 +1,107 @@
+h1 {
+  font-family: "RobotoBold";
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: 20px 0px 15px 0px; }
+
+.main-img {
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  height: 286px;
+  background: url(../img/az-main-img-bg.jpg) no-repeat top center;
+  position: relative;
+  margin: 0 auto; }
+  .main-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%; }
+
+.az-imgs {
+  width: 100%;
+  font-size: 0px; }
+
+.az-img {
+  position: relative;
+  width: 24%;
+  height: 64px;
+  margin-left: 0.66%;
+  margin-right: 0.66%;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: top; }
+  .az-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%; }
+
+.az-img:first-child {
+  margin-left: 0%; }
+
+.az-img:last-child {
+  margin-right: 0%; }
+
+.az-margin {
+  max-width: 320px;
+  margin: 10px auto; }
+
+.az-breadcrumb {
+  font-family: "RobotoRegular";
+  font-size: 14px;
+  color: #666666;
+  margin-top: 40px; }
+  .az-breadcrumb a {
+    color: #666666; }
+  .az-breadcrumb span {
+    color: #dc5858; }
+
+.az-socials li {
+  display: inline-block;
+  margin: 0 5px; }
+
+.az-list li {
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  padding-left: 38px;
+  position: relative; }
+.az-list li:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0px; }
+.az-list .az-icon1:before {
+  width: 30px;
+  height: 21px;
+  background: url(../img/az-icon1.png) no-repeat top left; }
+.az-list .az-icon2:before {
+  width: 22px;
+  height: 26px;
+  background: url(../img/az-icon2.png) no-repeat top left; }
+.az-list .az-icon3:before {
+  width: 29px;
+  height: 21px;
+  background: url(../img/az-icon3.png) no-repeat top left; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/***************/
+
+/*# sourceMappingURL=style3.css.map */

@@ -1,0 +1,745 @@
+$red: #c60006;
+
+//область шапки на всю ширину
+.header-top{
+  width: 100%;
+  background-color: #000; 
+  text-align: center;
+  padding:20px 0px;
+}
+//контейнер
+.header-main{
+    width: 1170px;
+    margin: 10px auto;
+    
+}
+//контент хедера
+.ab-phone-header, .ab-phone-header2, .ab-regim-header{
+    display: inline-block;
+    color:#fff;
+    padding:5px 20px;
+    font-size: 16px;
+
+}
+
+.ab-regim-header{
+  background: url(../img/watch-header.png) no-repeat center left;
+  padding-left:25px;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 8px;
+  font-family: "RobotoLight";
+}
+
+.ab-phone-header{
+  background: url(../img/phone.png) no-repeat center left;
+  display: inline-block;
+  margin-right: 10px;
+  font-family: "RobotoMedium";
+  font-size: 18px;
+
+}
+
+.ab-phone-header2{
+  background: url(../img/phone.png) no-repeat center left;
+  font-family: "RobotoMedium";
+  font-size: 18px;
+}
+
+//кнопка хедера
+.contact-box a{
+  display: inline-block;
+  padding: 2px 10px;
+  color: #fff;
+  font-family: "RobotoRegular";
+  font-size: 14px;
+
+  background-color: #DA4C4C;
+    width: 205px;
+    margin: 6px auto;
+    border-radius: 5px;
+    height: 27px;
+}
+
+
+/*== Блок с логотипом ==*/
+
+.ab-logo-wrapper{
+  width: 100%; 
+  text-align: center;
+  padding:10px 0px;
+}
+
+.ab-logo{
+  background: url(../img/logo.png) no-repeat center left;
+  display: inline-block;
+  font-family: "RobotoBold";
+  font-size: 22px;
+  padding-left: 60px;
+}
+
+.ab-logo-box{
+//padding-left: 30px;
+margin: 0 auto;
+}
+
+.ab-slogan{
+  display: inline-block;
+  font-family: "RobotoRegular";
+  font-size: 11px;
+}
+
+.ab-dostavka, .ab-predoplata, .ab-garantia, .ab-korzina {
+  display: inline-block;
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  padding-right: 45px;
+  margin-bottom: 15px;
+}
+
+.ab-dostavka{
+  background: url(../img/dostavka.png) no-repeat center left;
+  padding-left: 50px;
+}
+
+.ab-predoplata{
+  background: url(../img/predoplata.png) no-repeat center left;
+  padding-left: 47px;
+}
+
+.ab-garantia{
+  background: url(../img/garantia.png) no-repeat center left;
+  padding-left: 30px;
+}
+
+.ab-korzina{
+  background: url(../img/korzina.png) no-repeat center left;
+  padding-left: 35px;
+  padding-right: 0;
+}
+
+.ab-blok-logo{
+  padding-top: 15px;
+}
+
+/*== Главное меню ==*/
+
+
+
+.ab-classmenu{
+background-color: #F1C22B;
+}
+
+.ab-classmenu ul li{
+    display: inline-block;
+//padding: 15px 18px;
+}
+
+.ab-classmenu{
+    ul{
+        color: red;
+        li{ position: relative;
+            a{
+                color: black;
+                font-size: 16px;
+                font-family: "RobotoRegular";
+                padding: 15px 28px;
+                display: inline-block;
+                //padding-left: 2px;
+                
+            }
+        }
+        li:before{
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 30px;
+            background: url(../img/razdelitel-menu.png) no-repeat top center;
+            top: 10px;
+            left: 5px;
+            a:hover{
+
+            }
+        }
+    }
+}
+
+.domik{
+    padding-left: 45px;
+    padding-right: 9px;
+}
+
+
+
+/*== Основной контент - верхний блок с картинками==*/
+
+.ab-tovar-item-wrapper {
+ 
+ width: 100%;
+}
+
+.ab-img-box{
+ //margin: 0 auto;
+}
+.ab-tovar-item {
+  display: inline-block;
+  padding: 10px 7px;
+  text-align: center;
+  width: 134px;
+  height: 140px;
+  margin: 3px 60px;
+}
+
+.ab-box-zagolovok{
+  display: block;
+  font-family: "RobotoRegular";
+  text-align: center;
+}
+
+.ab-box-price{
+  display: block;
+  font-family: "RobotoRegular";
+  color: red;
+  text-align: center;
+}
+
+/*== Сайдбар ==*/
+
+.ab-side-bar{
+ padding-left: 60px;
+}
+
+.ab-side-zag{
+  font-family: "RobotoRegular";
+  text-align: center;
+  font-size: 16px;
+  padding: 8px 50px 5px 25px;
+  display: inline-block; 
+}
+
+.ab-side-color{
+  font-family: "RobotoBold";
+  text-align: center;
+  font-size: 16px;
+  padding-left: 23px;
+  display: inline-block;
+  margin-top: 15px; 
+}
+
+//Оранжевая рамка с надписью
+.ab-ramka {
+  -webkit-transform: skew(-14deg);
+  -moz-transform: skew(-14deg);
+  -o-transform: skew(-14deg);
+  border: 2px solid orange;
+  text-align: left;
+  //margin-top: 15px; //декстоп
+  margin: 10px 28px;
+  display: inline-block;
+}
+
+//Общие стили для текста в рамке
+.ab-textvramke-1, .ab-textvramke-2 {
+  -webkit-transform: skew(14deg);
+  -moz-transform: skew(14deg);
+  -o-transform: skew(14deg);
+  display: inline-block;
+  font-family: "RobotoRegular";
+  text-align: center;
+  font-size: 16px;
+  
+}
+
+//Отдельные стили для текста в рамке
+.ab-textvramke-1 {
+  padding: 8px 85px 5px 25px;
+}
+
+.ab-textvramke-2 {
+  padding: 8px 135px 5px 25px;
+}
+
+//Иконки в сайдбаре
+.ab-link1 {
+background: url(../img/g1.png) no-repeat center left;
+}
+.ab-link2 {
+background: url(../img/g2.png) no-repeat center left;
+}
+.ab-link3 {
+background: url(../img/g3.png) no-repeat center left;
+}
+.ab-link4 {
+background: url(../img/g4.png) no-repeat center left;
+}
+.ab-link5 {
+background: url(../img/g5.png) no-repeat center left;
+}
+.ab-link6 {
+background: url(../img/g6.png) no-repeat center left;
+}
+
+//Цвет ссылки возле иконок в сайдбаре
+a{
+color:black;
+}
+
+//Общие класс для ul сайдбара
+.ab-link-span {
+padding-top: 11px;
+font-family: "RobotoRegular";
+font-size: 16px;
+padding-left: 40px;
+padding-top: 10px;
+display: inline-block;
+}
+
+.ab-links {
+  padding-top: 10px;
+}
+
+.ab-side-banner {
+  margin: 40px auto;
+}
+
+
+/*== Блок с товаром под слайдером ==*/
+
+.ab-tovar-main {
+background: url(../img/tovar-bg.png) no-repeat;
+width: 100%;
+background-size: cover;
+border: 1px solid #D1D1D1;
+border-radius: 6px;
+margin-top: 15px;
+}
+
+.ab-img-box-main {
+   padding: 78px 40px 34px;
+}
+
+.ab-tovar-name {
+font-family: "RobotoBold";
+text-align: center;
+font-size: 16px;
+margin-left: 40px;
+}
+
+.ab-line {
+background: url(../img/line.png) no-repeat;
+width: 100%;
+height: 1px;
+display: inline-block;
+background-size: cover;
+}
+
+.ab-table-row {
+  display: table;
+  width: 100%;
+}
+
+.ab-table-row-left, .ab-table-row-right {
+ vertical-align: middle;
+ display: table-cell;
+ font-family: "RobotoLight";
+}
+
+.ab-table-row-left {
+  text-align: left;
+  padding-left: 13px;
+}
+
+.ab-table-row-right {
+  text-align: right;
+  padding-right: 13px;
+
+}
+
+/* Две кнопки в карточке товара */
+.ab-button-left {
+ font-family: "RobotoBold";
+ text-align: center;
+ font-size: 18px;
+ color:red;
+ border: 2px solid red; 
+ border-radius: 4px;
+ padding: 8px 23px;
+ display: inline-block;
+ margin: 35px 5px 20px;
+}
+
+.ab-button-right {
+ background-color: #F1C22B;
+ font-family: "RobotoBold";
+ text-align: center;
+ font-size: 18px;
+ color:white; 
+ border-radius: 4px;
+ padding: 10px 28px;
+}
+
+
+
+/*== Блок с картинкой на всю ширину и 5 элементами ==*/
+
+.ab-content-body-full-width {
+//background: url(../img/full-img.png) no-repeat top center;
+//height: 390px;
+background-color: #898C91;
+padding: 15px 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.ab-ramki{
+width: 190px;
+height: 133px;
+background: url(../img/ramka-p.png) no-repeat top center;
+display: inline-block;
+float: left;
+margin-left: 37px;
+margin-top: 140px;
+position: relative;
+}
+
+/* Картинки для рамок 5 штук */
+.ab-ramki-img-1{
+display: inline-block; 
+position: absolute;
+width: 190px;
+height: 133px;
+background: url(../img/gruzovik.png) no-repeat top center;
+margin-top: -50px; 
+}
+
+.ab-ramki-img-2{
+display: inline-block; 
+position: absolute;
+width: 190px;
+height: 133px;
+background: url(../img/medal.png) no-repeat top center;
+margin-top: -50px; 
+}
+
+.ab-ramki-img-3{
+display: inline-block; 
+position: absolute;
+width: 190px;
+height: 133px;
+background: url(../img/punkty.png) no-repeat top center;
+margin-top: -50px; 
+}
+
+.ab-ramki-img-4{
+display: inline-block; 
+position: absolute;
+width: 190px;
+height: 133px;
+background: url(../img/people.png) no-repeat top center;
+margin-top:-50px; 
+}
+
+.ab-ramki-img-5 {
+display: inline-block; 
+position: absolute;
+width: 190px;
+height: 133px;
+background: url(../img/vozvrat.png) no-repeat top center;
+margin-top:-50px; 
+}
+
+
+/* Записи в рамках общие */
+.ab-ramki-word {
+font-family: "RobotoRegular";
+text-align: center;
+font-size: 16px;
+color:black;
+display: inline-block;
+padding: 60px 10px;
+}
+
+/* Отдельный класс для последней записи */
+.ab-ramki-word-special {
+font-family: "RobotoRegular";
+text-align: center;
+font-size: 16px;
+color:black;
+display: inline-block;
+padding: 59px 24px;
+}
+
+/*== Блок Новости со слайдом ==*/
+
+.owl-carousel{
+margin-top: -60px;
+}
+
+
+.ab-novosti{
+font-family: "RobotoBold";
+margin: 0 auto;
+font-size: 36px;
+color:black;
+display: block;
+margin: 10px 487px 28px;
+}
+
+.ab-item-date {
+font-family: "RobotoLight";
+text-align: left;
+font-size: 17px;
+color:#CCCBCF;
+display: inline-block;
+padding-left: 20px;
+}
+
+.ab-item-title {
+font-family: "RobotoRegular";
+text-align: left;
+font-size: 22px;
+color:black;
+display: inline-block;
+//padding-left: 20px;
+padding-left: 10px;
+}
+
+.ab-img-box4{
+  margin: 10px 52px;
+}
+
+/* Кнопка на слайдере */
+.ab-slide-button {
+    background-color: #DA4C4C;
+    display: block;
+     margin: -17px 21px 0 105px;
+    //margin: -25px 31px 24px 190px;
+    text-align: center;
+    color:#fff;
+    transform: skew(-24deg);
+}
+
+/* Текст со ссылкой на слайдере */
+.ab-slide-button-txt a {
+ display: block;
+ color: white;
+ width: 180px;
+ height: 45px; 
+ margin: 0 auto;
+ font-family: "RobotoBold";
+ font-size: 16px;
+ text-align: center;
+ transform: skew(23deg);
+ padding-right: 19px;
+ padding-top: 10px;
+}
+
+.owl-prev {
+width: 12px;
+height: 20px;
+background: url(../img/slide-left.png) no-repeat;
+margin: -134px -23px;
+}
+
+.owl-next {
+width: 12px;
+height: 20px;
+background: url(../img/slide-right.png) no-repeat;
+margin: 113px 1181px;
+}
+
+/*== Блок Отзывы со слайдом ==*/
+
+.ab-otzivi {
+font-family: "RobotoBold";
+text-align: center;
+font-size: 20px;
+color:black;
+display: inline-block;
+margin-top:20px;
+margin-bottom: 70px;
+}
+
+
+.ab-img-box5{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+
+  
+   img {
+  display: block;
+  border-radius: 10em;
+  width: 100px;
+  height: 100px;
+   }
+
+}
+
+
+
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+   
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.domik {
+        display: none;
+    }
+.ab-classmenu ul li{
+        display: block;
+        text-align: center;
+    }
+ li:before{
+            display: none;
+            
+
+            } 
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+  
+    .domik {
+        display: none;
+    }
+    .ab-classmenu ul li{
+        display: block;
+        text-align: center;
+    }
+    .ab-classmenu ul li a {
+        padding: 15px 10px;
+
+    }
+
+    li:before{
+            display: none;
+            
+
+            }
+
+
+.ab-textvramke-1, .ab-textvramke-2 {
+  font-size: 11px;
+  
+}
+
+.ab-textvramke-1{
+  padding: 8px 85px 5px 25px;
+}
+
+.ab-textvramke-2{
+  padding: 8px 117px 5px 25px;
+}
+
+
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.ramka-wrapper{
+    text-align: center;
+  }
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+  .ab-item-title {
+padding-left: 20px;
+}
+
+  .ab-slide-button {
+   margin: -25px 31px 24px 190px;
+   
+}
+
+  .owl-carousel{
+margin-top: 0;
+}
+
+.ab-content-body-full-width {
+background: url(../img/full-img.png) no-repeat top center;
+height: 390px;
+padding: 15px 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+  .ab-button-left {
+ margin: 35px 8px 20px;
+}
+   .contact-box {text-align: right;}
+   .header-top{
+    padding:7px;
+   }
+
+.ab-tovar-item {
+    margin: 3px 11px;
+
+}
+
+.ab-ramka {
+    margin: 11px 15px;
+}
+
+}
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+/***************/
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //padding: 0px;
+    //margin: 0px;
+    //outline: 1px solid red;
+    //outline: none !important;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    //padding: 0px;
+    //margin: 0px;    
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    //padding: 0px;
+    //margin: 0px;
+}
